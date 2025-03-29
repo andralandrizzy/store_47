@@ -5,8 +5,9 @@ const Footer = () => {
 
   return (
     <footer className='border-t'>
-      <div className='p-5 flex-center'>
-        {currentYear} {APP_NAME}. All Rights Reserved
+      <div className='p-5 grid text-center text-[15px]'>
+        <p>{currentYear} {APP_NAME}. All Rights Reserved </p>
+        <p>Created by Andral Orelus</p>
       </div>
     </footer>
   );
