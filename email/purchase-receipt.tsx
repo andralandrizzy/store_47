@@ -74,7 +74,7 @@ export default function PurchaseReceiptEmail({ order }: OrderInformationProps) {
         <Head />
         <Body className='font-sans bg-white'>
           <Container className='max-w-xl'>
-            <p className='text-center text-[#c91c1c] font-bold'> DO NOT REPLY TO THIS EMAIL</p>
+            <Heading className='text-center text-[#c91c1c] font-bold'> DO NOT REPLY TO THIS EMAIL</Heading>
             <Heading>Purchase Receipt</Heading>
             <Section>
               <Row>
