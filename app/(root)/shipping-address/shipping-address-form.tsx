@@ -56,7 +56,7 @@ const ShippingAddressForm = ({ address }: { address: ShippingAddress }) => {
       <div className='max-w-md mx-auto space-y-4'>
         <h1 className='h2-bold mt-4'>Shipping Address</h1>
         <p className='text-sm text-muted-foreground'>
-          Please enter and address to ship to
+          Please enter a valid address you want your items to ship to
         </p>
         <Form {...form}>
           <form
