@@ -48,10 +48,10 @@ const PlaceOrderPage = async () => {
           <Card>
             <CardContent className='p-4 gap-4'>
               <h2 className='text-xl pb-4'>Shipping Address</h2>
-              <p>{userAddress.fullName}</p>
-              <p>
-                {userAddress.streetAddress}, {userAddress.city}{' '}
-                {userAddress.postalCode}, {userAddress.country}{' '}
+              <p className='font-bold pb-1 text-[18px]'>{userAddress.fullName}</p>
+              <p className='mb-2'>
+                {userAddress.streetAddress}, <br /> {userAddress.city}
+                {' '}{userAddress.postalCode} <br /> {userAddress.country}
               </p>
               <div className='mt-3'>
                 <Link href='/shipping-address'>

@@ -160,10 +160,10 @@ const OrderDetailsTable = ({
           <Card className='my-2'>
             <CardContent className='p-4 gap-4'>
               <h2 className='text-xl pb-4'>Shipping Address</h2>
-              <p>{shippingAddress.fullName}</p>
+              <p className='font-bold pb-1 text-[18px]'>{shippingAddress.fullName}</p>
               <p className='mb-2'>
-                {shippingAddress.streetAddress}, {shippingAddress.city}
-                {shippingAddress.postalCode}, {shippingAddress.country}
+                {shippingAddress.streetAddress}, <br /> {shippingAddress.city}
+                {' '}{shippingAddress.postalCode} <br /> {shippingAddress.country}
               </p>
               {isDelivered ? (
                 <Badge variant='secondary'>
