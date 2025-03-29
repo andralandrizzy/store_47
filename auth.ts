@@ -35,7 +35,7 @@ export const config = {
 
         // Check if user exists and if the password matches
         if (user && user.password) {
-          const isMatch = await compareSync(
+          const isMatch = compareSync(
             credentials.password as string,
             user.password
           );
